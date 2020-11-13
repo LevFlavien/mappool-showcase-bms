@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Torus';
+    src:
+        local('Torus'),
+        url('Torus-Regular.otf')
+        format('opentype');
+}
+
+body {
+    background-color: black;
+    color: #eeeeee;
+    font-family: "Torus";
+    font-size: 20px;
+}
+
+.input {
+    margin-top: 100px;
+}
+
+#chart {
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 2px solid #eeeeee;*/
+    max-width: 100%;
+}
+
+.chart-container {
+    display: flex;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.block {
+    padding: 10px 0;
+}
+
+.pattern {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-grow: 1;
+    width: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+.metadata {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px solid #eeeeee;
+    border-left: 2px solid #eeeeee;
+    border-radius: 15px;
+}
+
+.metadata-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.metadata-secondary {
+    padding-top: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.level {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+    font-size: 1.1em;
+}
