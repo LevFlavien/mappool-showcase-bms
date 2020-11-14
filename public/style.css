@@ -20,7 +20,7 @@ body {
 #chart {
     display: flex;
     flex-wrap: wrap;
-    /*border: 2px solid #eeeeee;*/
+    justify-content: center;
     max-width: 100%;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 .metadata {
-    width: 320px;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
