@@ -3,7 +3,7 @@
 @section('content')
     <div id="chart">
         <div class="chart-container">
-            <div class="block pattern">{{ $pattern }}</div>
+            <div class="block pattern"><div>{{ $pattern }}</div></div>
             <div class="block metadata">
                 <div class="row">
                     <div class="metadata-main">
